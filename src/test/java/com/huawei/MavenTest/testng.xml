@@ -8,6 +8,7 @@
     <test name="case1">
       <classes>
         <class name="com.huawei.MavenTest.TestConfiguration" />
+        <class name="com.huawei.MavenTest.TestHelloWorld" />
       </classes>
     </test>
 </suite>
