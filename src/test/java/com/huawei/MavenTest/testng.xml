@@ -8,20 +8,7 @@
     <test name="case1">
       <classes>
         <class name="com.huawei.MavenTest.TestConfiguration" />
-        <class name="com.huawei.MavenTest.TestDBConnection" />
-        <class name="com.huawei.MavenTest.DBConfig" />
       </classes>
     </test>
-    <!-- @AfterTest -->
-
-    <!-- @BeforeTest -->
-    <test name="case2">
-      <classes>
-        <class name="com.huawei.MavenTest.TestDBConnection" />
-        <class name="com.huawei.MavenTest.DBConfig" />
-      </classes>
-    </test>
-    <!-- @AfterTest -->
-
 </suite>
 <!-- @AfterSuite -->
