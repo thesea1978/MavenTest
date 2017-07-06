@@ -46,5 +46,4 @@ public class CommonConfigItem {
 	public void setDefaultValue(String defaultValue) {
 		this.defaultValue = defaultValue;
 	}
-
 }

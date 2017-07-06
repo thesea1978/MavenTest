@@ -63,31 +63,22 @@ public class EnvNode {
 	public String getValueByKey(String key) {
 		
 		String value = "";
-		switch (key) {
-		case "IP":
+		if (key == "IP") {
 			value = getIp();
-			break;
-		case "USERNAME":
+		} else if (key == "USERNAME") {
 			value = getUsernmae();
-			break;
-		case "PASSWORD":
+		} else if (key == "PASSWORD") {
 			value = getPassword();
-			break;
-		case "ROOTPASS":
+		} else if (key == "ROOTPASS") {
 			value = getRootpass();
-			break;
-		case "URL":
+		} else if (key == "URL") {
 			value = getUrl();
-			break;
-		case "SSHPORT":
+		} else if (key == "SSHPORT") {
 			value = Integer.toString(getSshPort());
-			break;
-		case "SFTPPORT":
+		} else if (key == "SFTPPORT") {
 			value = Integer.toString(getSftpPort());
-			break;
-		default:
+		} else {
 			System.out.println("invalid env info item: " + key);
-			break;
 		}
 		
 		return value;
